@@ -1,0 +1,32 @@
+.flex{
+    display: flex;
+}
+.image{
+    width: 110px;
+    height: 110px;
+    border-radius: 200px;
+}
+body{
+    background-color: azure;
+}
+.top{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    text-align: center;
+    padding: 40px; 
+    border-radius:50px;
+}
+.column {
+flex-direction: column;
+}
+.mid{
+    padding: 40px;
+    border-radius: 50px;
+}
+.box{
+    padding: 40px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #8EC5FC;
+     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
