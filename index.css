@@ -1,0 +1,55 @@
+.flex{
+    display: flex;
+}
+.image{
+    width: 110px;
+    height: 110px;
+    border-radius: 200px;
+}
+body{
+    background-color: azure;
+}
+.top{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    text-align: center;
+    padding: 40px; 
+    border-radius:50px;
+}
+.column {
+flex-direction: column;
+}
+.mid{
+    padding: 40px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.box{
+    padding: 10px;
+    border-radius: 50px;
+    width: 111px;
+    height: 110px;
+}
+#QR{
+    background: url(/image/QR.jpg) no-repeat 0px 0px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-size: 150px;
+                    
+    /*可以覆盖在内容之上，因为采用absolute时，脱离文档流*/
+    z-index: 22;
+    border: 2px solid green;
+    display: none;
+}
+a:hover #QR
+{
+display: block;            
+}
+.lower {
+    padding: 40px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+}
